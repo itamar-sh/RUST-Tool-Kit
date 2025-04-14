@@ -46,7 +46,7 @@ fn main() {
     // boolean data
     let a = true;
     let b = false;
-    println!("a is {} and b is {}");
+    println!("a is {} and b is {}", a, b);
     println!("NOT a is {}", !a);
     println!("a AND b is {}", a & b);
     println!("a OR b is {}", a | b);
@@ -57,7 +57,7 @@ fn main() {
 
     // comparison operators
     let a = 1;
-    let b = false;
+    let b = 2;
     println!("a is {} and b is {}", a, b);
     println!("a EQUAL TO b is {}", a == b);
     println!("a NOT EQUAL TO b is {}", a != b);
